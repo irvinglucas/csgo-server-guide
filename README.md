@@ -4,13 +4,14 @@ Este guia completo foi elaborados com o intuito de auxiliar qualquer pessoa que 
 
 ## Índice
 
-1. Preparando seu ambiente
+1. [Preparando seu ambiente](https://github.com/irvinglucas/csgo-server-guide/blob/master/environment.md)
     - Requisitos de hardware
     - Requisitos de software
     - Atualizando o sistema
     - Instalando o SteamCMD
-3. Instalação do servidor
-4. Configuração básica
-5. Avançando seu conhecimento
-6. Referências bibliográficas
-7. Licença
+2. Instalação do servidor
+3. Configuração básica
+4. Avançando seu conhecimento
+5. Referências bibliográficas
+6. Licença
+7. teste
