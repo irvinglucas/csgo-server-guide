@@ -26,12 +26,14 @@ Porém, como nem tudo são flores, a caminhada até este conhecimento não foi m
 
 ## Início
 
-1. Preparando seu ambiente
-2. Instalação do servidor dedicado
-3. Iniciando seu servidor
+1. Preparando o ambiente
+2. Instalando o servidor
+3. Iniciando o servidor
+4. Personalizando as configurações
 
 EM CONSTRUÇÃO!!!
 
+Se deseja contribuir com a escrita ou aplicar correções neste repositório, envie um pull request e verificarei sua contribuição!
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
