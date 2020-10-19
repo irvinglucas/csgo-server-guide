@@ -1,16 +1,16 @@
 # Instalando o servidor
 
-Para começarmos com o pé direito e adotando boas práticas ao criar nosso servidor, lembre-se de não executá-lo em modo **`root`**, sendo, dessa forma, interessante criar um usuário especificamente para este fim. A ideia é isolar o diretório do servidor de CS:GO do seu diretório pessoal ou de qualquer outra aplicação.
+Para começarmos com o pé direito e adotando boas práticas ao criar nosso servidor, lembre-se de não executá-lo com o usuário **`root`**, sendo, dessa forma, interessante criar um usuário especificamente para este fim. A ideia é isolar o diretório e operação do servidor de CS:GO dos outros usuários. Este é um processo facultativo, porém recomendado.
 
-Para criar um novo usuário no sistema, digite os seguintes comandos no terminal(root):
+Para criar um novo usuário no sistema, digite os seguintes comandos no terminal:
 
 ``` 
-useradd -m csgo
+sudo useradd -m csgo
 ```
 Depois atribua uma senha:
 
 ```
-passwd csgo
+sudo passwd csgo
 ```
 
 Após esse processo, faça login no usuário criado executando o seguinte comando:
@@ -29,20 +29,14 @@ E por fim, execute o seguinte comando para finalmente instalar o servidor dedica
 steamcmd +force_install_dir ~/csgo-server/ +login anonymous +app_update 740 validate +quit
 ```
 
-Depois de alguns minutos, o seu servidor já estára instalado na sua máquina. Você verá a mensagem **`Success! App '740' fully installed`**.
+Depois de alguns(vários) minutos, o seu servidor estará instalado na sua máquina. Você verá a mensagem **`Success! App '740' fully installed`**.
 
-O comando **`+force_install_dir ~/csgo-server/`** indica para o SteamCMD que o diretório da instalação do servidor é **`/home/<usuario>/csgo-server/`**, o comando **`+login anonymous`** faz login em modo anônimo (sem a necessidade da sua conta Steam) e **`+app_update 740 validate`** indica que você deseja instalar o servidor de código **`740`** (CS:GO). Alguns servidores de outros jogos necessitam que você faça login com a sua conta Steam para baixar os arquivos necessários, porém o servidor de CS:GO não exige, pode fazer, mas não é necessário.
-
-
-<!-- | Server | ID | SteamCMD | Steam Client | Anonymous login | Notes |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|Counter-Strike Global Offensive Dedicated Server| 740 | Yes | - | Yes | Game purchase required for **public servers** | -->
-
-<!-- Recomendo fortemente consultar as referências após executar o guia acima para maiores informações, porém o que é necessário para instalar o servidor está aqui. -->
+O comando **`+force_install_dir ~/csgo-server/`** indica para o SteamCMD que o diretório da instalação do servidor é **`/home/<usuario>/csgo-server/`**, o comando **`+login anonymous`** faz login em modo anônimo (sem a necessidade da sua conta Steam) e **`+app_update 740 validate`** indica que você deseja instalar o servidor de código **`740`** (CS:GO). Alguns servidores de outros jogos necessitam que você faça login no SteamCMD com a sua conta Steam para baixar os arquivos necessários, porém o servidor de CS:GO não exige, pode fazer, mas não é necessário.
 
 
-<!-- EDITAR ESSA PARTE AO FINAL DA ESCRITA -->
-[<< Anterior]() || [Próximo >>]()
+[<< Anterior - Preparando seu ambiente](1-environment.md)
+
+[Próximo >> - Testando seu servidor](3-testing-server.md)
 
 ## Referências
 
