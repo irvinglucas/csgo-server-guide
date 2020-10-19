@@ -63,7 +63,9 @@ Ao instalar, você será questionado se aceita os termos de uso. Ao aparecer o c
 
 Pronto, nosso sistema está pronto para instalarmos o servidor de CS:GO.
 
-[<<< Primeiros passos](README.md) || [Instalando o servidor dedicado de CS:GO >>>](2-installing-server.md)
+[<< Anterior - Primeiros passos](README.md)
+
+[Próximo >> - Instalando o servidor dedicado de CS:GO](2-installing-server.md)
 
 
 ## Referências
