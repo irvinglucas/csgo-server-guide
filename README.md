@@ -1,6 +1,6 @@
 # Guia de instalação e configuração para servidores de Counter-Strike: Global Offensive.
 
-Este guia completo foi elaborados com o intuito de auxiliar qualquer pessoa que deseja instalar e configurar um servidor do jogo *Counter-Strike: Global Offensive*.
+Este guia completo foi elaborado com o intuito de auxiliar qualquer pessoa que deseja instalar e configurar um servidor do jogo *Counter-Strike: Global Offensive*.
 
 ## Motivação
 
@@ -11,7 +11,7 @@ O ano de 2020 nos provou que a internet se fez necessária para conectar pessoas
 
 
 
-Seguindo essa ótica, decidi dedicar meu tempo a criar algo para a comunidade do meu jogo favorito: *[Counter-Strike Global Offensive](https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/)*. Unindo esse hobby com a minha formação <!-- Adicionar link pro README de perfil --> , comecei a estudar como o jogo funciona tanto no *client-side* quanto no *server-side*, afim de pôr em prática algumas ideias de coisas novas e melhorias em outros projetos já existentes.
+Seguindo essa ótica, decidi dedicar meu tempo a criar algo para a comunidade do meu jogo favorito: *[Counter-Strike Global Offensive](https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/)*. Unindo esse hobby com a minha formação, comecei a estudar como o jogo funciona tanto no *client-side* quanto no *server-side*, afim de pôr em prática algumas ideias de coisas novas e melhorias em outros projetos já existentes.
 
 
 
@@ -22,7 +22,7 @@ O *Counter-Strike Global Offensive* não decepciona: o FPS multiplayer da Valve 
 
 **Jogos mais jogados da Steam. Acessado em 23/08/2020.**
 
-Porém, como nem tudo são flores, a caminhada até este conhecimento não foi muito simples. Em minhas pesquisas encontrei muito conteúdo disperso, dificultando bastante o aprendizado e execução dos meus objetivos. Essa dispersão me motivou a criar este repositório que será um compilado de vários guias para auxiliar você a instalar, configurar, executar e personalizar seu servidor de CS:GO.
+Porém, como nem tudo são flores, a caminhada até este conhecimento não foi muito simples. Em minhas pesquisas encontrei muito conteúdo disperso, dificultando bastante o aprendizado e execução dos meus objetivos. Essa dispersão me motivou a criar este repositório, que será um compilado de vários guias para auxiliar você a instalar, configurar, executar e personalizar seu servidor de CS:GO.
 
 ## Início
 
